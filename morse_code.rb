@@ -50,3 +50,5 @@ def decode_sentence(morse_sentence)
 end
 
 puts decode_sentence('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
+
+puts decode_sentence('-- -.--   -. .- -- .')
