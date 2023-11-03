@@ -43,8 +43,8 @@ end
 def decode_sentence(morse_sentence)
   morse_code_to_sentence = morse_sentence.split('   ')
   sentence = ''
-  morse_code_to_sentence.each do |j|
-    sentence += "#{decode_word(j)} "
+  morse_code_to_sentence.each do |w|
+    sentence += "#{decode_word(w)} "
   end
   sentence.chop
 end
